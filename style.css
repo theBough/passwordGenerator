@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #ffd6ff;
+  background-color: #c8b6ff;
+  text-align: center;
+}
+h4{
+  color: #e7c6ff
+}
+button{
+  background-color: #bbd0ff;
+  color:#ffd6ff;
+  text-align: center;
+  border: #ffd6ff;
+  border-radius: 10%;
+}
