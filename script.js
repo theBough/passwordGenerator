@@ -3,6 +3,7 @@ var passwordLength = document.getElementById("passwordLength");
 
 function startHere(){
   passwordHolder.innerHTML = ""
+  passwordLength = document.getElementById("passwordLength");
   passwordLength = parseInt(passwordLength.value)
   passwordLength += 1
   console.log(passwordLength)
