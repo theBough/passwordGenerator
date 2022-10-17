@@ -1,9 +1,13 @@
 var passwordHolder = document.getElementById("showPassword");
+var passwordLength = document.getElementById("passwordLength");
 
 function startHere(){
   passwordHolder.innerHTML = ""
+  passwordLength = parseInt(passwordLength.value)
+  passwordLength += 1
+  console.log(passwordLength)
   var rndNum;
-  for(i=0 ; i<25 ; i++){
+  for(i=0 ; i<passwordLength; i++){
     rndNum = Math.random()*3
     rndNum = Math.floor(rndNum)
     if(rndNum == 0){
